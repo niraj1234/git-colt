@@ -23,4 +23,15 @@ public class WelcomeController {
 		return "news rest end point added";
      }
 
+	
+	// This is for local commit switch
+	@RequestMapping("/product")
+	public String product() {
+		System.out.println("Adding product REST");
+		return "product rest point added";
+     }
+
+
+	
+	
 }
