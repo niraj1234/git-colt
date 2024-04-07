@@ -30,8 +30,10 @@ public class WelcomeController {
 		System.out.println("Adding product REST");
 		return "product rest point added";
      }
-
-
 	
+	@RequestMapping("/dashboard")
+	public String dashboard() {
+		return "dashboard";
+	}	
 	
 }
