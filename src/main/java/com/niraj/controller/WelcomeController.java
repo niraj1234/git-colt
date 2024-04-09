@@ -33,6 +33,7 @@ public class WelcomeController {
 	
 	@RequestMapping("/dashboard")
 	public String dashboard() {
+		System.out.println("Adding comment on dashboard function");
 		return "dashboard";
 	}	
 	
