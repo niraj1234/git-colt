@@ -19,7 +19,7 @@ public class WelcomeController {
 	
 	@RequestMapping("/news")
 	public String news() {
-		System.out.println("Changing directly from GitHub ");
+		System.out.println("Changing directly from GitHub Local Change 2");
 		return "news rest end point added";
      }
 
