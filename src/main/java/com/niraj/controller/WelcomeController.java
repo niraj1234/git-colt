@@ -19,7 +19,7 @@ public class WelcomeController {
 	
 	@RequestMapping("/news")
 	public String news() {
-		System.out.println("Removing last hour changes");
+		System.out.println("Change on 10th April");
 		return "news rest end point added";
      }
 
