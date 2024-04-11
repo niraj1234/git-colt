@@ -19,7 +19,7 @@ public class WelcomeController {
 	
 	@RequestMapping("/news")
 	public String news() {
-		System.out.println("Change on 10th April");
+		System.out.println("Change on 11th April Actuator dependency added");
 		return "news rest end point added";
      }
 
