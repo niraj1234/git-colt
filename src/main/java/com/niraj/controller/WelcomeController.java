@@ -19,7 +19,7 @@ public class WelcomeController {
 	
 	@RequestMapping("/news")
 	public String news() {
-		System.out.println("Change on 19th April Just Checking Token");
+		System.out.println("Change on 19th April After regenerating the token");
 		return "news rest end point added";
      }
 
