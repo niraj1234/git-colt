@@ -14,6 +14,7 @@ public class WelcomeController {
 	public String welcome() {
 		System.out.println("In the Welcome controller root path" + new Date());
 		System.out.println("Before any PUSH to gitHub");
+		System.out.println("Before PHP project upload New Token");
 		return "Welcome to Git-Colt project ";
      }
 	
